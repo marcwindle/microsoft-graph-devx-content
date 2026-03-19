@@ -133,13 +133,13 @@ Follow the instructions specified, then run this command again:<br/>
 ## Testing of Sample Queries
 Once you've added/updated the sample queries, you can test them out by going to [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer), and appending this to the end of the Graph Explorer url.
 
-`?devx-api=https://graphexplorerapi.azurewebsites.net&org={org}&branchName={branchName}`
+`?devx-api=https://devxapi-func-prod-eastus.azurewebsites.net&org={org}&branchName={branchName}`
 
 This fetches the permissions/samples from your specific branch or repo.
 
 #### Full url/path format:
 ```
-https://developer.microsoft.com/en-us/graph/graph-explorer?devx-api=https://graphexplorerapi.azurewebsites.net&org={org}&branchName={branchName}
+https://developer.microsoft.com/en-us/graph/graph-explorer?devx-api=https://devxapi-func-prod-eastus.azurewebsites.net&org={org}&branchName={branchName}
 ```
 #### NB:
 i. Replace *{branchName}* with the name of your current branch.
@@ -149,7 +149,7 @@ iii. If your branch is in this repo, replace *{org}* with microsoftgraph
 
 #### Example:
 ```
-https://developer.microsoft.com/en-us/graph/graph-explorer?devx-api=https://graphexplorerapi.azurewebsites.net&org=MeganBowen&branchName=mk/update-sample
+https://developer.microsoft.com/en-us/graph/graph-explorer?devx-api=https://devxapi-func-prod-eastus.azurewebsites.net&org=MeganBowen&branchName=mk/update-sample
 ```
 
 The samples/permissions will be populated on Graph Explorer and you can do further testing.
